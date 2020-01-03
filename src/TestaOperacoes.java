@@ -6,7 +6,7 @@ public class TestaOperacoes {
 		Operacoes soma = new Operacoes();
 		soma.saldo = 150;	
 	    soma.soma(50);
-
+		
 	
 	 Operacoes subtracao = new Operacoes();		
 	 subtracao.saldo = 100;
@@ -21,14 +21,15 @@ public class TestaOperacoes {
 	 divisao.saldo = 50 ;
 	 divisao.divisao(2);
 
-
-	 
-	 
+	
+	  
 		System.out.println("Operacao Soma " + soma.saldo);
 		System.out.println("Operacao Subtracao " + subtracao.saldo);
-		System.out.println("Operacao multiplicacao " + multiplicacao.saldo);
-		System.out.println("Operacao divisao " + divisao.saldo);
+		System.out.println("Operacao Multiplicacao " + multiplicacao.saldo);
+		System.out.println("Operacao Divisao " + divisao.saldo);
 		
+		
+	
 		
 		
 		
